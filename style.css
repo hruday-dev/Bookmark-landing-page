@@ -1,0 +1,36 @@
+:root{
+--Blue600: hsl(231, 69%, 60%);
+--Red400: hsl(0, 94%, 66%);
+--Grey50: hsl(0, 0%, 97%);
+--Grey150: hsl(0, 0%, 88%);
+--Blue950: hsl(229, 31%, 21%);
+}
+body{
+    color: var(--Blue950);
+}
+.normal-img{
+    position: relative;
+    max-width: 100%;
+}
+.image-bg-left{
+    position:absolute;
+    left: 23.10%;
+    bottom: -7%;
+    background-color: var(--Blue600);
+    padding: 40px;
+    height: 75%;
+    width: 76.90%;
+    z-index: -1;
+    border-radius: 0 0 0 40%;
+}
+.image-bg-right{
+    position: absolute;
+    right: 23.10%;
+    bottom: -27%;
+    background-color: var(--Blue600);
+    height: 95%;
+    width: 125%;
+    z-index: -1;
+    border-radius: 0 0 7rem 0;
+}
+
